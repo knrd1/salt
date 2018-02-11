@@ -13,3 +13,4 @@ include:
             - pkg: virtualenv
     cmd.run:
         - name: "pip3 install flask gunicorn"
+        - name: "cd /home/ubuntu/blog && gunicorn www:app &"
