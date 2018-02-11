@@ -9,4 +9,3 @@ include:
         - require:
             - pkg: python3-dev
             - pkg: python3-pip
-            - pkg: virtualenv
