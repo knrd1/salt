@@ -15,4 +15,4 @@ include:
         - cwd: /home/blog/
         - names:
           - pip3 install flask gunicorn
-          - gunicorn app:www
+          - gunicorn www:app
