@@ -14,4 +14,4 @@ include:
     cmd.run:
         - names:
           - pip3 install flask gunicorn
-          - gunicorn www:app
+          - cd /home/ubuntu/blog && gunicorn www:app
