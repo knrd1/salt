@@ -1,3 +1,0 @@
-git-all:
-  pkg:
-    - installed
