@@ -1,5 +1,7 @@
 include:
 - python
+- nginx
+- blog
 
 /home/ubuntu/blogenv:
     virtualenv.managed:
