@@ -14,4 +14,4 @@ include:
     cmd.run:
         - names:
           - pip3 install flask gunicorn
-          - cd /home/ubuntu/blog && gunicorn www:app
+          - /bin/bash /srv/salt/run_gun.sh  > /dev/null 2>&1
