@@ -1,5 +1,5 @@
 base:
   '*':
-    - webserver
+    - nginx
     - python
-    - gunicorn
+    - app
