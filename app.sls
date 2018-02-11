@@ -5,8 +5,9 @@ include:
     virtualenv.managed:
         - no_site_packages: True
         - runas: ubuntu
-        - requirements: /srv/salt/requirements.txt
         - require:
             - pkg: python3-dev
             - pkg: python3-pip
             - pkg: virtualenv
+    cmd.run:
+        - name: "pip3 install flask gunicorn"
