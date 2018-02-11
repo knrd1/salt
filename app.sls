@@ -12,9 +12,7 @@ include:
             - pkg: python3-pip
             - pkg: virtualenv
     cmd.run:
-        - name: "pip3 install flask gunicorn"
-
-    cmd.run:
-        - name: "gunicorn app:www"
         - cwd: /home/blog/
-
+        - names:
+          - pip3 install flask gunicorn
+          - gunicorn app:www
