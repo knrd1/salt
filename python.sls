@@ -4,6 +4,3 @@ python3-pip:
 python3-dev:
   pkg:
     - installed
-virtualenv:
-  pkg:
-    - installed
