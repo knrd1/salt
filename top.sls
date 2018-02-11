@@ -1,6 +1,6 @@
 base:
   '*':
     - nginx
+    - blog
     - python
     - app
-    - blog
