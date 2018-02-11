@@ -1,5 +1,4 @@
 base:
   '*':
     - webserver
-    - python 
-    - git
+    - python
