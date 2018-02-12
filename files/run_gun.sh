@@ -1,2 +1,2 @@
 #!/bin/bash
-cd /home/ubuntu/blog && gunicorn www:app &
+cd /home/ubuntu/blog && gunicorn --reload www:app &
