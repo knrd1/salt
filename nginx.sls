@@ -10,7 +10,7 @@ nginx:
 /etc/nginx/sites-available/default:
   file:
     - managed
-    - source: /srv/salt/default
+    - source: /srv/salt/files/default
     - user: root
     - group: root
     - mode: 644
